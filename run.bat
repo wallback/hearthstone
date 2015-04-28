@@ -1,0 +1,1 @@
+lua53.exe hearth.lua > result
