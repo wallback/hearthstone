@@ -131,7 +131,7 @@ function ladder:hunt1 ()
   self:druid (my)
   self:priest (my,1,1)
   self:hunter (my,1,0,1,1)
-  self:paladin (my,1,0,1)
+  self:paladin (my,1,0,1,1)
   self:rogue (my,0,1)
   self:warlock (my,0)
 end
