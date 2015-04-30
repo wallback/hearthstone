@@ -125,15 +125,15 @@ end
 --------------------------------------------------------------------------------------------------
 function ladder:hunt1 ()
   local my="Hunt face"
-  self:mage (my,1,0,1,1)
-  self:warior (my,1,0)
-  self:shaman (my,0)
-  self:druid (my)
+  self:mage (my,1,0,1,1,0,1,0,1,0,0,0,0,0)
+  self:warior (my,1,0,0)
+  self:shaman (my,0,1,1)
+  self:druid (my,1,0,1)
   self:priest (my,1,1)
-  self:hunter (my,1,0,1,1)
-  self:paladin (my,1,0,1,1)
-  self:rogue (my,0,1)
-  self:warlock (my,0)
+  self:hunter (my,1,0,1,1,0,1,1,0,0,1)
+  self:paladin (my,1,0,1,1,0,0,1,0,0,1)
+  self:rogue (my,0,1,1,1,1,1,0,1)
+  self:warlock (my,0,1,0,1,0,1)
 end
 --------------------------------------------------------------------------------------------------
 function ladder:druid1 ()
