@@ -142,15 +142,15 @@ end
 --------------------------------------------------------------------------------------------------
 function ladder:druid1 ()
   local my="Druid agro"
-  self:mage (my,1)
-  self:warior (my,0)
+  self:mage (my,1,1)
+  self:warior (my,0,1)
   self:shaman (my)
-  self:druid (my,1)
+  self:druid (my,1,1)
   self:priest (my)
   self:hunter (my,0)
-  self:paladin (my,1,0,1,0)
+  self:paladin (my,1,0,1,0,0)
   self:rogue (my)
-  self:warlock (my,0,0)
+  self:warlock (my,0,0,0)
 end
 --------------------------------------------------------------------------------------------------
 function ladder:druid2 ()
@@ -168,15 +168,15 @@ end
 --------------------------------------------------------------------------------------------------
 function ladder:lock1 ()
   local my="Warlock demon"
-  self:mage (my)
+  self:mage (my,0)
   self:warior (my,1,1)
   self:shaman (my)
   self:druid (my,1,0)
   self:priest (my,0,1)
   self:hunter (my,1,0,1,0)
-  self:paladin (my)
+  self:paladin (my,0)
   self:rogue (my,1)
-  self:warlock (my,1)
+  self:warlock (my,1,0,0)
 end
 --------------------------------------------------------------------------------------------------
 function ladder:hunt2 ()
