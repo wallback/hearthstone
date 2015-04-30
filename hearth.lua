@@ -122,6 +122,10 @@ function ladder:sham2 ()
   self:rogue (my)
   self:warlock (my,1,1,1)
 end
+--21-93-49
+--8-937-449-39-497
+--аникин
+--8-951-358-58-10
 --------------------------------------------------------------------------------------------------
 function ladder:hunt1 ()
   local my="Hunt face"
@@ -169,10 +173,10 @@ function ladder:lock1 ()
   self:shaman (my)
   self:druid (my,1,0)
   self:priest (my,0,1)
-  self:hunter (my,1,0,1)
+  self:hunter (my,1,0,1,0)
   self:paladin (my)
   self:rogue (my,1)
-  self:warlock (my)
+  self:warlock (my,1)
 end
 --------------------------------------------------------------------------------------------------
 function ladder:hunt2 ()
