@@ -13,15 +13,15 @@ end
 --------------------------------------------------------------------------------------------------
 function ladder:sham1 ()
   local my="Shaman mech"
-  self:mage (my,1,1,1,1)
-  self:warior (my,1,0,1,1)
+  self:mage (my,1,1,1,1,0,1,1,0)
+  self:warior (my,1,0,1,1,1)
   self:shaman (my,0,1)
-  self:druid (my,1,1,1)
+  self:druid (my,1,1,1,1,1,1)
   self:priest (my,1)
   self:hunter (my,0)
-  self:paladin (my)
-  self:rogue (my)
-  self:warlock (my,0,1,0,0)
+  self:paladin (my,0,1,1,0)
+  self:rogue (my,1)
+  self:warlock (my,0,1,0,0,0,1)
 end
 --------------------------------------------------------------------------------------------------
 function ladder:sham2 ()
