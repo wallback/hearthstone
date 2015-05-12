@@ -63,9 +63,37 @@ function ladder:mage1 ()
   self:warlock (my,1,1,0,1,0)
 end
 --------------------------------------------------------------------------------------------------
+function ladder:warlock1 ()
+  local my="Warlock combo"
+  self:mage (my,0)
+  self:warior (my,0)
+  self:shaman (my)
+  self:druid (my,0,0)
+  self:priest (my)
+  self:hunter (my,1,1)
+  self:paladin (my,1)
+  self:rogue (my)
+  self:warlock (my,1,1)
+end
+--------------------------------------------------------------------------------------------------
+function ladder:warlock2 ()
+  local my="Warlock demon"
+  self:mage (my)
+  self:warior (my)
+  self:shaman (my)
+  self:druid (my)
+  self:priest (my)
+  self:hunter (my)
+  self:paladin (my)
+  self:rogue (my)
+  self:warlock (my)
+end
+--------------------------------------------------------------------------------------------------
 ladder:hunt1()
 ladder:sham2()
 ladder:druid1()
 ladder:mage1()
 ladder:sham1()
+ladder:warlock1()
+ladder:warlock2()
 --------------------------------------------------------------------------------------------------
