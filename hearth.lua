@@ -18,7 +18,7 @@ end
 --------------------------------------------------------------------------------------------------
 
 function ladder:mage (my,...) self:game (my,"Mage",...) end
-function ladder:warior (my,...) self:game (my,"Warior",...) end
+function ladder:warrior (my,...) self:game (my,"Warrior",...) end
 function ladder:shaman (my,...) self:game (my,"Shaman",...) end
 function ladder:druid (my,...) self:game (my,"Druid",...) end
 function ladder:priest (my,...) self:game (my,"Priest",...) end
@@ -26,7 +26,15 @@ function ladder:hunter (my,...) self:game (my,"Hunter",...) end
 function ladder:paladin (my,...) self:game (my,"Paladin",...) end
 function ladder:rogue (my,...) self:game (my,"Rogue",...) end
 function ladder:warlock (my,...) self:game (my,"Warlock",...) end
-
+function Mage (...) ladder:mage (IM,...) end
+function Warrior (...) ladder:warrior (IM,...) end
+function Shaman (...) ladder:shaman (IM,...) end
+function Druid (...) ladder:druid (IM,...)  end
+function Priest (...) ladder:priest (IM,...) end
+function Hunter (...) ladder:hunter (IM,...) end
+function Paladin (...) ladder:paladin (IM,...) end
+function Rogue (...) ladder:rogue (IM,...) end
+function Warlock (...) ladder:warlock (IM,...) end
 --------------------------------------------------------------------------------------------------
 -- Статистика общая по классам в сводной таблице
 -- Статистика по классам опонентов сводная для всех дек в таблице
