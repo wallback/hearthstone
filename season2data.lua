@@ -103,7 +103,7 @@ function ladder:rogue1 ()
 end
 --------------------------------------------------------------------------------------------------
 function ladder:druid3 ()
-  local my="Druid fatique"
+  local my="Druid fatigue"
   self:mage (my,0,0)
   self:warrior (my)
   self:shaman (my)
@@ -141,6 +141,28 @@ ladder:druid3()
 ladder:hunt2()
 --------------------------------------------------------------------------------------------------
 IM="Druid taunt"
-Mage (0)
+Mage(0)
 Hunter(1)
+Mage(1,1)
+Warrior(0)
+Warlock(0)
+Mage(0)
+Paladin(0)
+
+IM="Druid fatigue"
+Shaman(1)
+Paladin(0)
+Hunter(0)
+Mage(0)
+
+IM="Warlock combo"
+Warlock(0,0)
+Hunter(1)
+Warrior(0)
+Mage(1)
+Paladin(1)
+Druid(1)
+Hunter(1)
+Paladin(1)
+Druid(1)
 --------------------------------------------------------------------------------------------------
