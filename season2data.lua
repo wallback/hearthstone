@@ -114,4 +114,10 @@ IM="Warlock combo"
   Paladin(0)
   Priest(0,1)
   Paladin(1)
+  Paladin(0)
+  Warlock(0)
+  Warrior(1)
+  Hunter(1)
+  Druid(0)
+  Druid(1)
 --------------------------------------------------------------------------------------------------
