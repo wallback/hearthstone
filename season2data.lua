@@ -130,3 +130,37 @@ IM="Hunt beast"
 IM="Shaman mech"
   Paladin(0)
   Hunter(1)
+  Paladin(0)
+  Mage(1,0)
+  Warrior(1)
+  Paladin(0)
+  Hunter(1)
+  Mage(0)
+  Druid(0)
+  Paladin(1)
+--------------------------------------------------------------------------------------------------
+IM="Warlock combo"
+  Rogue(1)
+  Hunter(1)
+  Warrior(1)
+  Hunter(1)
+  Warlock(1)
+  Mage(1)
+  Druid(1)
+  Rogue(1)
+  Warlock(0)
+--------------------------------------------------------------------------------------------------
+IM="Hunt face"
+  Priest(1)
+  Warlock(0)
+  Hunter(0)
+  Hunter(1)
+  Warlock(1)
+  Warrior(0)
+  Warrior(0)
+  Hunter(0)
+--------------------------------------------------------------------------------------------------
+IM="Mage mech"
+  Druid(1)
+  Warlock(1)
+  
