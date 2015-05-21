@@ -163,4 +163,17 @@ IM="Hunt face"
 IM="Mage mech"
   Druid(1)
   Warlock(1)
-  
+  Mage(0)
+  Warlock(0)
+--------------------------------------------------------------------------------------------------
+IM="Shaman blood"
+  Priest(0)
+  Paladin(0)
+  Hunter(1)
+  Warrior(1)
+  Mage(1)
+  Rogue(0)
+  Warrior(1)
+  Priest(0)
+  Paladin(0)
+  Druid(1)
