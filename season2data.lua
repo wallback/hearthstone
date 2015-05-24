@@ -177,3 +177,16 @@ IM="Shaman blood"
   Priest(0)
   Paladin(0)
   Druid(1)
+--------------------------------------------------------------------------------------------------
+IM="Shaman mech"
+  Priest(0)
+  Paladin(1,0)
+  Mage(0)  
+  Paladin(0,1)
+  Druid(0)
+  Warlock(1)
+  Mage(0,1)
+  Warrior(1)
+  Hunter(0)
+  Priest(0)
+  Rogue(1)
