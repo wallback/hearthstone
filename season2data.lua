@@ -224,5 +224,16 @@ IM="Hunt beast"
   Paladin(1)
   Warrior(0)
   Priest(1)
+--------------------------------------------------------------------------------------------------
+IM="Warrior patron"
+  Hunter(1,1)
+  Druid(1)
+  Hunter(0)
+  Warrior(0,1,0)
+  Priest(1)
+  Mage(0)
+  Druid(1)
+  Mage(0)
+  Priest(1)
   
    
