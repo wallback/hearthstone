@@ -234,6 +234,9 @@ IM="Warrior patron"
   Mage(0)
   Druid(1)
   Mage(0)
+  Priest(1,0)
+  Paladin(1,1)
   Priest(1)
+  
   
    
