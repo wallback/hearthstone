@@ -237,6 +237,17 @@ IM="Warrior patron"
   Priest(1,0)
   Paladin(1,1)
   Priest(1)
-  
-  
-   
+  Warlock(0)
+  Mage(0)
+  Druid(0)
+  Mage(0)
+--------------------------------------------------------------------------------------------------
+IM="Paladin samopal"   
+  Hunter(1)
+  Paladin(1)
+  Warrior(1)
+  Driud(1)
+  Paladin(1)
+  Warlock(1)
+  Paladin(0)
+  Priest(0)
