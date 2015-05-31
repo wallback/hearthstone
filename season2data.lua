@@ -200,7 +200,7 @@ IM="Druid taunt"
   Warlock(0)
   Hunter(0)
 --------------------------------------------------------------------------------------------------
-IM="Druid aggro"  
+IM="Druid agro"  
   Warrior(0)
   Mage(0)
 --------------------------------------------------------------------------------------------------
@@ -242,12 +242,52 @@ IM="Warrior patron"
   Druid(0)
   Mage(0)
 --------------------------------------------------------------------------------------------------
-IM="Paladin samopal"   
+IM="Paladin heal"   
   Hunter(1)
   Paladin(1)
   Warrior(1)
-  Driud(1)
+  Druid(1)
   Paladin(1)
   Warlock(1)
   Paladin(0)
   Priest(0)
+--------------------------------------------------------------------------------------------------
+IM="Paladin otk"
+  Mage(1,1,0)
+  Priest(0)
+  Warlock(1)
+  Rogue(1)
+  Mage(0)
+  Hunter(1)
+  Rogue(0)
+  Shaman(0)
+  Hunter(0)
+--------------------------------------------------------------------------------------------------
+IM="Paladin heal"
+  Rogue(1)
+  Priest(0)
+  Mage(0)
+  Shaman(1)
+  Hunter(1)
+  Warrior(0)
+  Paladin(0)
+  Hunter(1)
+  Warlock(0)
+  Shaman(0)
+  Hunter(1)
+  Mage(1,1)
+  Paladin(0,0)
+  Druid(0)
+--------------------------------------------------------------------------------------------------
+IM="Warlock combo"
+  Warlock(0)  
+  Paladin(0)
+  Druid(1)
+  Shaman(0)
+  Hunter(1)
+  Mage(1,0)
+  Hunter(0)
+  Mage(0)
+  Priest(1)
+  Druid(1)
+  
