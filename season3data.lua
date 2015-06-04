@@ -27,3 +27,5 @@ IM="Paladin heal"
 IM="Paladin otk"
   Warlock(1)
   Mage(1)
+  Hunter(1)
+  Paladin(0)
