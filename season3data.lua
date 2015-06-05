@@ -29,3 +29,11 @@ IM="Paladin otk"
   Mage(1)
   Hunter(1)
   Paladin(0)
+----------------------------------------------------------
+IM="Druid agro"
+  Priest(1)
+  Shaman(0)
+  Mage(0)
+  Warlock(0)
+  Warrior(0,1,1)
+  
