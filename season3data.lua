@@ -36,3 +36,5 @@ IM="Druid agro"
   Mage(0)
   Warlock(0)
   Warrior(0,1,1)
+  Priest(1)
+  Hunter(1)
