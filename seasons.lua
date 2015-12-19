@@ -1,4 +1,6 @@
 dofile ("hearth.lua")
 dofile ("season1data.lua")
 dofile ("season2data.lua")
+dofile ("season3data.lua")
+dofile ("season4data.lua")
 ladder:print ()
