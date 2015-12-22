@@ -1,2 +1,18 @@
 IM="Rogue overdraw"
 Hunter(1)
+Priest(1)
+Hunter(0)
+Warrior(1)
+
+Warrior(1,1)
+Mage(0)
+Priest(0)
+Mage(1)
+Warrior(0)
+Hunter(1)
+Priest(1)
+Mage(1)
+Druid(1)
+Paladin(0)
+Priest(1)
+Warlock(0)
